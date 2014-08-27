@@ -1,0 +1,5 @@
+%h1 Here is your script
+= @script.body
+%h1 Run your script with
+
+%code curl -X POST http://run.jsbox.io/#{@script.name}?email=mason@thoughtbot.com&amp;message=hello
